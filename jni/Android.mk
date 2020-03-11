@@ -69,7 +69,7 @@ LOCAL_C_INCLUDES += \
    $(LOCAL_PATH)/wiringPi \
    $(LOCAL_PATH)/devLib/
 
-LOCAL_MODULE    := tb_wpi_android
+LOCAL_MODULE    := wpi_android
 LOCAL_SRC_FILES := \
     wpi_android.c
 LOCAL_LDLIBS    := -ldl -llog
